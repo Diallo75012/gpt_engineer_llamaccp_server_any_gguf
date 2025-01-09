@@ -1,0 +1,18 @@
+# GOOGLE GEMINI
+# not working will use groq instead as it is not openai compatible url
+#OPENAI_API_BASE="https://generativelanguage.googleapis.com/v1beta2/models/gemini-2.0-flash-exp:generateMessage"
+#OPENAI_API_KEY=
+# using service account json file so no need gemini api key as need the access token to call api url and not using google.generativeai lib
+#GEMINI_API_KEY="*****************************"
+
+#MODEL_NAME="gemini-2.0-flash-exp"
+# LOCAL_MODEL=true
+# GOOGLE CREDENTIALS SERVICE ACCOUNT JSON FILE RENAMED
+#SERVICE_ACCOUNT_JSON_CREDENTIALS_PATH="/home/creditizens/gpt_engineer/.google_credentials.json"
+#ENV_VAR_FILE=".env"
+#ENV_VAR_NAME="OPENAI_API_KEY"
+
+# using GROQ Instead
+OPENAI_BASE_URL="https://api.groq.com/openai/v1"
+OPENAI_API_KEY="*********************************************"
+MODEL_NAME="llama-3.3-70b-versatile"
