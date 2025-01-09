@@ -4,7 +4,7 @@
 google_credentials.json
 google_*
 models/
-
+env/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
